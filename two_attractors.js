@@ -1,4 +1,3 @@
-let canvas;
 let background_color = "#1A232C";
 
 let followMode = false;
@@ -10,7 +9,7 @@ let mainAttractor;
 let followerAttractor;
 
 function setup() {
-  canvas = createCanvas(400, 350);
+  let canvas = createCanvas(400, 350);
   canvas.mousePressed(canvasMouseClicked);
   initializeAttractors();
 }
