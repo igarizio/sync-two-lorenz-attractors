@@ -1,4 +1,4 @@
-let background_color = "#1A232C"
+let background_color = "#1A232C";
 
 let nDisplayPoints = 500;
 let mainAttractor;
@@ -25,7 +25,7 @@ function initializeAttractor() {
 
 function drawMainAttractor() {
   push();
-  translate(0, -120)
+  translate(0, -120);
   stroke(255);
   strokeWeight(1);
   noFill();
