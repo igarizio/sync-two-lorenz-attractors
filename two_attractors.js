@@ -1,4 +1,4 @@
-let background_color = "#1A232C";
+let backgroundColor = "#1A232C";
 
 let followMode = false;
 let nDisplayPoints = 300;
@@ -110,7 +110,7 @@ function addBackgroundTexts() {
 }
 
 function draw() {
-  background(background_color);
+  background(backgroundColor);
 
   push();
   translate(width / 2, 0);

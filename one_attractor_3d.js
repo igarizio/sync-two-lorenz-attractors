@@ -1,4 +1,4 @@
-let background_color = "#1A232C";
+let backgroundColor = "#1A232C";
 
 let nDisplayPoints = 500;
 let mainAttractor;
@@ -44,7 +44,7 @@ function drawDescriptionText() {
 }
 
 function draw() {
-  background(background_color);
+  background(backgroundColor);
   drawDescriptionText();
   orbitControl(1, 1, 0); // Zoom disabled
   drawMainAttractor();
