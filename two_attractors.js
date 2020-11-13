@@ -9,7 +9,7 @@ let mainAttractor;
 let followerAttractor;
 
 function setup() {
-  let canvas = createCanvas(400, 350);
+  let canvas = createCanvas(600, 350);
   canvas.mousePressed(canvasMouseClicked);
   initializeAttractors();
 }

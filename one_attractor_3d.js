@@ -10,7 +10,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 350, WEBGL);
+  createCanvas(600, 350, WEBGL);
   initializeAttractor();
   textFont(robotoFont);
 }
