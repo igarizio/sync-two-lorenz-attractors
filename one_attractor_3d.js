@@ -1,7 +1,11 @@
 let backgroundColor = "#1A232C";
-
 let nDisplayPoints = 500;
+
 let mainAttractor;
+let randomRangeX = [-15, 15];
+let randomRangeY = [-18, 18];
+let randomRangeZ = [14, 40];
+let dt = 0.015;
 
 let robotoFont;
 

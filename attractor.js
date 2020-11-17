@@ -1,10 +1,5 @@
 let inSyncThreshold = 2;
 
-let randomRangeX = [-15, 15];
-let randomRangeY = [-18, 18];
-let randomRangeZ = [14, 40];
-
-let dt = 0.015;
 let a = 10;
 let b = 28;
 let c = 8.0 / 3.0;

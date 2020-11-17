@@ -1,12 +1,16 @@
 let backgroundColor = "#1A232C";
-
-let followMode = false;
 let nDisplayPoints = 300;
 
 let nAttractors = 2;
 let attractors = [];
 let mainAttractor;
 let followerAttractor;
+let randomRangeX = [-15, 15];
+let randomRangeY = [-18, 18];
+let randomRangeZ = [14, 40];
+let dt = 0.015;
+
+let followMode = false;
 
 function setup() {
   let canvas = createCanvas(600, 350);
